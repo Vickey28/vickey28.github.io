@@ -5,13 +5,22 @@
 	font-size: 18px;
 	background:url(./assets/images/Profile.jpg);
 	background-size: cover;
-	height: 600px;
 	padding-top: 20px;
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
   color: #fff;
   background-color:transparent;
+  border: 2px solid white;
+	border-radius: 10px;
+
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid white;
+	border-radius: 10px;
 }
 
 .navbar ul li{
@@ -20,9 +29,8 @@
 }
 .image{
 	height: 40px;
-	width: 50px;
 	margin-top: -10px;
-	margin-left: 20px;
+	
 }
 
 .blog-body{
@@ -34,6 +42,7 @@
 
 .blog-body h2{
 	font-size: 60px;
+	padding-top: 50px;
 }
 
 .blog-body p{
@@ -48,10 +57,9 @@
 }
  
 .blog-body1 p{
-	margin-left: 250px;
-	margin-right: 250px;
 	margin-bottom: 50px;
-	font-size: 16px;
+	font-size: 25px;
+	color: #9B9999;
 
 }
 
@@ -113,20 +121,16 @@ h3{
 }
 
 
-.input{
-	width: 650px;
-	height: 50px;
+.w3-input{
+  	border: 1px;
+  	border: 1px solid #808080;
+	width: 80%;
 	padding: 20px;
 	margin: 5px;
+	display:inline-block;
 }
 
-.input1{
-	width: 650px;
-	height: 150px;
-	padding-left: 20px;
-	padding-top: -20px;
-	margin: 5px;
-}
+
 
 
 .fa-small{
@@ -139,11 +143,20 @@ h3{
 
 .fa-lg{
 	color: #fff;
-	margin-bottom: 40px;
+	margin-bottom: 50px;
 	margin-top: 20px;
 	border: 2px solid white;
 	padding: 20px;
 }
+
+.fa-large{
+	color: #fff;
+	margin-bottom: 130px;
+	margin-top: 50px;
+	border: 2px solid white;
+	padding: 20px;
+}
+
 
 .blog-footer{
 	background-color: #222;
@@ -152,8 +165,7 @@ h3{
 }
 
 .blog-footer p{
-	color: #fff;
-	font-size: 24px;
+	color: #A19C9C;
 	letter-spacing: 5px;
 }
 
@@ -162,4 +174,9 @@ i{
 	border: 2px solid white;
 	padding: 20px;
 	border-color: #fff;
+}
+
+.modal-dialog {
+ width: 100%;
+  padding: 5% ;
 }
