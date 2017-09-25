@@ -5,109 +5,623 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <link rel="icon" type="image/gif" href="./assets/images/logo8.png" >
-    <title>Vickey</title>
+    <title>artist</title>
 
     <!-- Bootstrap -->
-    <link href="./assets/css/w3.css" rel="stylesheet">
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="./assets/css/font-awesome.min.css" rel="stylesheet">
     <link href ="index.css" rel="stylesheet"> 
+    <style type="text/css">
+        
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body {
+      color: #888888;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+     font-family: 'Open Sans', Arial, Helvetica, Sans-serif, Verdana, Tahoma !important;
+}
+.top-content
+{
+background: rgba(0, 0, 0, 0) linear-gradient(135deg, #01b9ff 0%, #ba78fe 51%, #ea51bd 100%) repeat scroll 0 0;
+ background-color:#ba78fe;
+}
+.how-it-works-container
+{
+background: rgba(0, 0, 0, 0) linear-gradient(135deg, #01b9ff 0%, #ba78fe 51%, #ea51bd 100%) repeat scroll 0 0;
+ background-color:#ba78fe;
+}
+.navbar-inverse .navbar-brand small b {
+    border-top: 3px solid #fff;
+    font-size: 16px;
+    margin: 0 4px 0 0;
+    text-transform: uppercase;
+}
+.navbar {
+    background: rgba(51, 51, 51, 0.3) none repeat scroll 0 0;
+    border: 0 none;
+    padding-top: 10px;
+    transition: all 0.3s ease 0s;
+}
+.navbar-inverse .navbar-brand {
+    color: #fff;
+    font-size: 41px;
+    opacity: 0.8;
+    padding: 7px 11px;
+}
+.navbar.navbar-no-bg {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.how-it-works-box {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+ul.navbar-nav {
+    color: #fff;
+    font-size: 16px;
+}
+.navbar-inverse ul.navbar-nav li a {
+    border-bottom: 1px solid transparent;
+    color: #fff;
+    opacity: 0.8;
+}
+.navbar-inverse ul.navbar-nav li a:hover {
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    opacity: 1;
+}
+.navbar-inverse ul.navbar-nav li a:focus {
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    opacity: 1;
+    outline: 0 none;
+}
+.navbar-inverse ul.navbar-nav li a.btn-link-2 {
+    border: 1px solid #fff;
+    height: auto;
+    margin: 4px 0 0 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.navbar-inverse ul.navbar-nav li a.btn-link-2:hover, .navbar-inverse ul.navbar-nav li a.btn-link-2:focus, .navbar-inverse ul.navbar-nav li a.btn-link-2:active, .navbar-inverse ul.navbar-nav li a.btn-link-2:active:focus {
+    background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+    color: #fff;
+    opacity: 0.6;
+    outline: 0 none;
+}
+
+.inner-bg {
+    padding: 70px 0 100px;
+}
+.btn-link-1 {
+     background: #be5254 none repeat scroll 0 0;
+    border-radius: 144px;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 300;
+    height: 50px;
+    line-height: 16px;
+    padding: 16px 34px 0;
+    position: relative;
+    text-transform: uppercase;
+}
+.btn-link-1:hover, .btn-link-1:focus, .btn-link-1:active {
+    color: #fff;
+    opacity: 0.6;
+    outline: 0 none;
+}
+
+.btn-link-2 {
+    background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 114px;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 300;
+    height: 50px;
+    line-height: 16px;
+    margin: 0 5px;
+    padding: 15px 34px 0;
+    text-transform: uppercase;
+}
+.btn-link-2:hover, .btn-link-2:focus, .btn-link-2:active, .btn-link-2:active:focus {
+    background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+    color: #fff;
+    opacity: 0.6;
+    outline: 0 none;
+}
+.top-content .text h1 {
+    color: #fff;
+}
+h1, h2 {
+    font-size: 38px;
+    font-weight: 100;
+    line-height: 50px;
+    margin-top: 10px;
+}
+.top-content .text {
+    color: #fff;
+    padding-top: 84px;
+    text-align: left;
+}
+.top-content .description {
+    margin: 20px 0 10px;
+}
+.top-content .description p {
+    opacity: 0.8;
+}
+
+.section-container {
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+.app-features {
+    padding-bottom: 30px;
+}
+.section-description {
+    margin-top: 60px;
+}
+h1, h2 {
+    color: #555555;
+    font-size: 38px;
+    font-weight: 100;
+    line-height: 50px;
+    margin-top: 10px;
+}
+.divider-1 span {
+    background: #dddddd none repeat scroll 0 0;
+    display: inline-block;
+    height: 1px;
+    width: 200px;
+}
+.section-description p {
+    margin-top: 20px;
+    
+}
+.app-features-box {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.app-features-box .app-features-box-icon {
+    color: #be5254;
+    font-size: 80px;
+    line-height: 80px;
+}
+.app-features-box h3 {
+    margin-top: 15px;
+}
+h3 {
+    color: #555555;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+
+.section-container-image-bg, .section-container-image-bg h2, .section-container-image-bg h3 {
+    color: #ffffff;
+}
+.section-container-image-bg .divider-1 span {
+    background: #ffffff none repeat scroll 0 0;
+}
+.how-it-works-box-icon .how-it-works-step {
+    background: #be5254 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 24px;
+    height: 32px;
+    left: 95px;
+    line-height: 32px;
+    position: absolute;
+    top: 0;
+    width: 32px;
+}
+.how-it-works-box .how-it-works-box-icon {
+    font-size: 80px;
+    line-height: 80px;
+    position: relative;
+}
+.how-it-works-box h3 {
+    margin-top: 15px;
+}
+.section-container-image-bg, .section-container-image-bg h2, .section-container-image-bg h3 {
+    color: #ffffff;
+}
+.how-it-works-box p {
+    opacity: 0.8;
+}
+
+#contact .form-control {
+    border: 1px solid #ccc !important;
+    border-radius: 22px;
+    box-shadow: none !important;
+    height: auto;
+    padding: 13px 18px;
+}
+
+.bck_gray {
+    background: #fafafa none repeat scroll 0 0;
+}
+footer .footer-below {
+    background-color: #fafafa;
+    color: #848282;
+    margin: 40px 0 0;
+    padding: 54px 0;
+}
+.social_icon_list {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.social_icon_list li {
+    display: inline-block;
+    margin: 0 5px;
+}
+.social_icon_list li a {
+    border-radius: 100%;
+    color: #fff;
+    display: inline-block;
+    font-size: 30px;
+    height: 60px;
+    opacity: 1;
+    padding: 5px;
+    width: 60px;
+}
+a, a:hover, a:focus, a:active, a.active {
+    outline: 0 none;
+    text-decoration: none;
+}
+.social_icon_list li a i, .social_icon_list li a i {
+    margin-top: 11px;
+}
+.social_icon_list li a {
+    color: #fff;
+}
+.social_icon_list li:hover a {
+    opacity: 0.8;
+}
+.social_icon_list li a.fb_icon {
+    background: #3b5998 none repeat scroll 0 0;
+}
+.social_icon_list li a.twit_icon {
+    background: rgb(112, 186, 237) none repeat scroll 0 0;
+}
+.social_icon_list li a.gogle_plus_icon {
+    background: rgb(218, 72, 53) none repeat scroll 0 0;
+}
+.social_icon_list li a.vimeo_icon {
+    background: rgb(1, 185, 255) none repeat scroll 0 0;
+}
+
+.social_icon_list li a i, .social_icon_list li a i {
+    margin-top: 11px;
+}
+footer .mar_bot_top_ten a {
+    color: #be5254;
+}
+.form_send_btn.btn-lg {
+    background: transparent none repeat scroll 0 0;
+    border: 2px solid #be5254;
+    border-radius: 105px;
+    color: #be5254;
+    padding: 14px 30px;
+}
+.vendors span {
+    background: rgba(255, 255, 255, 0.2) none repeat scroll 0 0;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 28px;
+    height: 54px;
+    line-height: 51px;
+    text-align: center;
+    width: 80px;
+}
+.vendors {
+    margin: 50px 0 0;
+}
+    </style>
   </head>
 
 
 <body>
-    <nav class="navbar navbar-inverse navbar-static-top">
-  <div >
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-      </button>
-      <a class="navbar-brand" href="#"><img src="./assets/images/logo7.png" class="image"></a>
-    </div>
-
-  </div>
-    <div class="blog-body">
-      <center>
-        <h2>HELLO, I'M VICKEY</h2>
-        <P> A DESIGNER</P>
-        <a href="#"><span class="fa fa-chevron-down fa-large"> About Me</span><br></a>
-      </center>
-    </div>
-</nav>
-<div class="blog-body1">
-<div class="container">
-<center>
-  <h2>ABOUT ME</h2>
-  <h5>A selection of things I've be created</h5>
-  <hr> 
-  <p><h1> Take a closer look i think you'll like it.</h1></p>
-  <div class="w3-container ">
-  <p>Hey there, you're visting the Portfolio and blog of Vickey, that's me!, so let me introduce myself , I'm a Designer and born in 28<sup>th</sup>August 1995 in Madurai I spend most of my time in designing and bulding websites like this one. When i'm not designing  I'll take many photos of nauture and  that tell stroies, i present my ideas Check that Too...<br></p>
-  </div>
-
-   <a class="btn btn-lg  btn-block" href="#" role="button">CHECK MY WORK</a>
-</center>
-</div>
-</div>
-<div class="blog-body2">
-<center>
-  <h2>SOME OF MY WORK</h2>
-  <h5> A bunch of things that I've done so far.</h5>
-  <hr> 
-  </center>
-  <div class="container">
-    <div class="row"> 
-      <div class="col-sm-6 col-md-4"> 
-          <img src="./assets/images/Chronos2.jpg" class="img-responsive" >
-          <img src="./assets/images/element.jpg" class="img-responsive" >
-          <img src="./assets/images/design.png" class="img-responsive" >
+    
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<div class="top-content" style="position: relative; z-index: 0; ">
+            
+            <!-- Top menu -->
+          <!--  <nav role="navigation" class="navbar navbar-inverse navbar-no-bg">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button data-target="#top-navbar-1" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a target="_blank" href="https://web.facebook.com/iamgurdeeposahan" class="navbar-brand"><i class="fa fa-bullseye"></i></a>
+                    </div>-->
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                   <!-- <div id="top-navbar-1" class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#app-features" class="scroll-link">Features</a></li>
+                            <li><a href="#how-it-works" class="scroll-link">How it works</a></li>
+                            <li><a href="#about-us" class="scroll-link">About</a></li>
+                            <li><a href="#testimonials" class="scroll-link">Testimonials</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav> -->
+            
+            <div class="inner-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-5 phone wow fadeInLeft animated text-center" style="visibility: visible; animation-name: fadeInLeft;">
+                            <a href="#">
+                            <img style="display: inline;" class="img-responsive iamgurdeeposahan" alt="iamgurdeeposahan" title="iamgurdeeposahan" src="cp_social_app_iphone1.png">
+                            </a>
+                        </div>
+                        <div class="col-sm-7 text wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+                            <h1>Promote <strong>Your App</strong> With <i class="fa fa-bullseye"></i> <br>Get it now!</h1>
+                            <div class="description">
+                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.                              
+                            </div>
+                           <!-- <div class="top-big-link">
+                                <a href="https://web.facebook.com/iamgurdeeposahan" target="_blank" class="btn btn-link-1">Download it</a>
+                                <a href="https://web.facebook.com/iamgurdeeposahan" target="_blank" class="btn btn-link-2 scroll-link">Learn more</a>
+                            </div> -->
+                           <!-- <div class="vendors">
+                                <a href="#"><span class="fa fa-apple"></span></a>
+                                <a href="#"><span class="fa fa-android"></span></a>
+                                <a href="#"><span class="fa fa-windows"></span></a>
+                                
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
         </div>
-
-      <div class="col-sm-6 col-md-4"> 
-          <img src="./assets/images/Discover.jpg" class="img-responsive" >
-          <img src="./assets/images/Github.png" class="img-responsive" >
-          <img src="./assets/images/Student1.jpg" class="img-responsive" >
-      </div>
-
-      <div class="col-sm-6 col-md-4"> 
-          <img src="./assets/images/molino.jpg" class="img-responsive" >
-          <img src="./assets/images/blogger.jpg" class="img-responsive" >
-          <img src="./assets/images/royal.jpg" class="img-responsive" >
+        
+        
+        
+        
+  <!--  <div class="app-features-container section-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 app-features section-description wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+                        <h2>App's features</h2>
+                        <div class="divider-1 wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"><span></span></div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+                            labore et dolore<br> magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 app-features-wrapper wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+                        <div class="app-features-box">
+                            <div class="app-features-box-icon">
+                                <span class="typcn typcn-eye-outline fa fa-eye" aria-hidden="true"></span>
+                            </div>
+                            <h3>Easy To Use</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                        </div>
+                        <div class="app-features-box">
+                            <div class="app-features-box-icon fa fa-hand-peace-o">
+                                <span class="typcn typcn-thumbs-ok" aria-hidden="true"></span>
+                            </div>
+                            <h3>Responsive Design</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 app-features-image wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
+                        <img class="img-responsive iamgurdeeposahan" alt="iamgurdeeposahan" title="iamgurdeeposahan" src="http://s51.imgup.net/gurdeeposa1856.png">
+                    </div>
+                    <div class="col-sm-4 app-features-wrapper wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+                        <div class="app-features-box">
+                            <div class="app-features-box-icon">
+                                <span class="typcn typcn-cog-outline fa fa-cog" aria-hidden="true"></span>
+                            </div>
+                            <h3>Bootstrap Engine</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                        </div>
+                        <div class="app-features-box">
+                            <div class="app-features-box-icon">
+                                <span class="typcn typcn-group-outline fa fa-group" aria-hidden="true"></span>
+                            </div>
+                            <h3>Big Community</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        
+        
+        <div class="how-it-works-container section-container section-container-image-bg" style="position: relative; z-index: 0; ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 how-it-works section-description wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+                        <h2>How it works</h2>
+                        <div class="divider-1 wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"><span></span></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-sm-offset-1 how-it-works-box wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+                        <div class="how-it-works-box-icon">
+                            <span class="typcn typcn-pencil fa fa-sign-in" aria-hidden="true"></span>
+                            <span class="how-it-works-step" aria-hidden="true">1</span>
+                        </div>
+                        <h3>Sign up</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                    </div>
+                    <div class="col-sm-4 col-sm-offset-2 how-it-works-box wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
+                        <div class="how-it-works-box-icon">
+                            <span class="typcn typcn-ticket fa fa-ticket" aria-hidden="true"></span>
+                            <span class="how-it-works-step" aria-hidden="true">2</span>
+                        </div>
+                        <h3>Make payment</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-sm-offset-1 how-it-works-box wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+                        <div class="how-it-works-box-icon">
+                            <span class="typcn typcn-download fa fa-download" aria-hidden="true"></span>
+                            <span class="how-it-works-step" aria-hidden="true">3</span>
+                        </div>
+                        <h3>Download the app</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                    </div>
+                    <div class="col-sm-4 col-sm-offset-2 how-it-works-box wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
+                        <div class="how-it-works-box-icon">
+                            <span class="typcn typcn-thumbs-up fa fa-user" aria-hidden="true"></span>
+                            <span class="how-it-works-step" aria-hidden="true">4</span>
+                        </div>
+                        <h3>Start using it</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 section-bottom-button wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+                        <a href="#top-content" class="btn btn-link-1 scroll-link">Download it</a>
+                    </div>
+                </div>
+            </div>
         </div>
-      
-    </div> 
-    <center>
-      <a class="btn btn-lg  btn-block" href="#" role="button">GET IN TOUCH</a>
-    </center>
-  </div> 
-  </div>
-  <div class="blog-body1">
-  <div class="container">
-<center>
-  <h2>SAY HELLO</h2>
-  <h5>Write a few words whatever you want to tell me.</h5>
-  <hr>
-  <input type="text" placeholder="Name" class="w3-input">
-  <input type="text" placeholder="E-mail" class="w3-input">
-  <input type="text" placeholder="Subject" class="w3-input">
-  <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" aria-required="true" required="required" placeholder="Add some words" class="w3-input"></textarea>
-  <a class="btn btn-lg  btn-block" href="#" role="button">SEND</a>
-  </center>
-  </div>
-  </div>
-  <div class="blog-footer">
-    <div class="links">
-      <center>
-        <a href="#"><span class="fa fa-chevron-up fa-lg"></span><br></a>
-        <a href="#"><i class="fa fa-github fa-small"></i></a>
-        <a href="#"><i class="fa fa-facebook-square fa-small"></i></a>
-        <a href="#"><i class="fa fa-twitter fa-small"></i></a>
-        <a href="#"><i class="fa fa-behance fa-small"></i></a>
-        <p>Made With <span class="fa fa-heart"></span> by limitless</p>
-      </center>
-    </div>
-  </div>
-     
+        
+        
+        <div class="about-us-container section-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 about-us section-description wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+                        <h2>About us</h2>
+                        <div class="divider-1 wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"><span></span></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 about-us-box wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+                        <div class="about-us-photo">
+                         <img src="http://placemi.com/petnp/600x700" class="img-responsive">
+                            <div class="about-us-role">Marketing</div>
+                        </div>
+                        <h3>John Doe</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                        <div class="about-us-social">
+                            <a href="#"><span class="typcn typcn-social-facebook"></span></a>
+                            <a href="#"><span class="typcn typcn-social-dribbble"></span></a>
+                            <a href="#"><span class="typcn typcn-social-twitter"></span></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 about-us-box wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
+                        <div class="about-us-photo">
+                         <img src="http://placemi.com/xruzn/600x700" class="img-responsive">
+                            <div class="about-us-role">Designer</div>
+                        </div>
+                        <h3>Tim Brown</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                        <div class="about-us-social">
+                            <a href="#"><span class="typcn typcn-social-facebook"></span></a>
+                            <a href="#"><span class="typcn typcn-social-dribbble"></span></a>
+                            <a href="#"><span class="typcn typcn-social-twitter"></span></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 about-us-box wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+                        <div class="about-us-photo">
+                        <img src="http://placemi.com/wctme/600x700" class="img-responsive">
+                            <div class="about-us-role">Developer</div>
+                        </div>
+                        <h3>Sarah Red</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                        <div class="about-us-social">
+                            <a href="#"><span class="typcn typcn-social-facebook"></span></a>
+                            <a href="#"><span class="typcn typcn-social-dribbble"></span></a>
+                            <a href="#"><span class="typcn typcn-social-twitter"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+       <section class="section_heading" id="contact">
+        <div class="container">
+            <div class="row">
+                    <div class="col-sm-12 about-us section-description wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+                        <h2>Contact us</h2>
+                        <div class="divider-1 wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"><span></span></div>
+                    </div>
+                </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="col-lg-12 txt_cen">
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p><br><br>
+                    </div>
+                    <form novalidate="" id="contactForm" name="sentMessage">
+                        <div class="row">
+                            <div class="control-group">
+                                <div class="form-groupcol-xs-12 col-sm-6 col-md-6 col-lg-6  floating-label-form-group controls">
+                                <input type="text" data-validation-required-message="Please enter your name." required="" id="name" placeholder="Your Name" class="form-control" aria-invalid="false">
+                                    
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="form-group col-xs-12 col-sm-6 col-md-6 col-lg-6 floating-label-form-group controls email_div">
+                                    
+                                    <input type="email" data-validation-required-message="Please enter your email address." required="" id="email" placeholder="Your Email" class="form-control" aria-invalid="false">
+                                    
+                                
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 col-sm-12 col-md-12 col-lg-12 floating-label-form-group controls">
+                                     <textarea data-validation-required-message="Please enter a message." required="" id="message" placeholder="Your Message" class="form-control" rows="5" aria-invalid="false"></textarea>
+                               
+                            </div>
+                        </div>
+                        <br>
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="form-groupcol-xs-12 col-sm-12 col-md-12 col-lg-12 img_cen_div">
+                                <button class="btn btn-default form_send_btn btn-lg" type="submit">SEND MESSAGE <i class="fa fa-angle-right"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center bck_gray">
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul class="social_icon_list">
+                            <li><a class="fb_icon" target="_blank" href="https://web.facebook.com/iamgurdeeposahan"><i class="fa fa-facebook"></i></a></li>
+                            <li><a class="twit_icon" target="_blank" href="https://twitter.com/gurdeeposahan1"><i class="fa fa-twitter"></i></a></li>
+                            <li><a target="_blank" href="https://plus.google.com/u/0/105032594920038016998"class="gogle_plus_icon"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/gurdeeposahan/" class="vimeo_icon"><i class="fa fa-instagram"></i></a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col-lg-12 mar_bot_top_ten">
+                      <br>
+                      © <i class="fa fa-bullseye"></i> 2016. Design by
+<a href="https://web.facebook.com/iamgurdeeposahan" title="gurdeeposahan" target="_blank">Iamgurdeeposahan</a>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+
+
+
 
  <!-- Bootstrap core JavaScript
     ================================================== -->
