@@ -6,6 +6,7 @@ body {
     line-height: 30px;
     text-align: center;
      font-family: 'Open Sans', Arial, Helvetica, Sans-serif, Verdana, Tahoma !important;
+    background: rgba(0, 0, 0, 0) linear-gradient(135deg, #01b9ff 0%, #ba78fe 51%, #ea51bd 100%) repeat scroll 0 0;
 }
 .container{
     max-width:768px; 
