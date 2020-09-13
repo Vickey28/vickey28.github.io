@@ -1,26 +1,391 @@
-/*Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) { 
-.case-study-images li.show .img-hero-background span img {
-    transform: scale(1);
-    opacity: 0.2;
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .my-photo {
+        display: none;
+    }
+    .my-logo {
+        width: 150px;
+    }
+    .my-details {
+        padding-top: 0rem;
+    }
+    .header .logo {
+        padding: 20px;
+    }
+    .header .logo img {
+        width: 120px;
+    }
+    .header .menu-icon {
+        position: absolute;
+        top: -60px;
+        right: 0px;
+    }
+    .intro {
+        padding-bottom: 1rem;
+    }
+    .intro h2 {
+        font-size: 26px;
+        line-height: 40px;
+    }
+    .intro a {
+        font-size: 20px;
+    }
+    .social-icons {
+        margin-top: 3rem;
+    }
+    .banner-section {
+        padding-top: 2rem;
+    }
+    .project-content {
+        padding: 40px;
+    }
+    .project-content h6 {
+        font-size: 18px;
+    }
+    .project-content h4 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .let-friends a h4 {
+        font-size: 20px;
+    }
+    .header li a {
+        padding: 5px 20px;
+    }
+    .header .menu-btn:checked ~ .menu {
+        max-height: 300px;
+        margin-bottom: 20px;
+    }
+    .header li.active a {
+        color: #ffffff;
+        background: #ffaf29;
+    }
+    .pad-bottom-10 {
+        padding-bottom: 5rem !important;
+    }
+    .works, .works img {
+        height: 250px;
+    }
+    .worked-projects {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .dribble-shots {
+        margin-bottom: 5rem;
+    }
+    .width-custom-100 {
+        padding: 4rem 0px;
+    }
+    .heading1 {
+        font-size: 22px;
+        width: 100%;
+        line-height: 35px;
+    }
+    .sub-heading {
+        color: #fcad2a;
+        font-size: 18px;
+    }
+    .sub-heading1 {
+        font-size: 20px;
+    }
+    .margin-top50 {
+        margin-top: 30px;
+    }
+    .final-design ul li {
+        width: 40%;
+    }
+    .margin-top80 {
+        margin-top: 50px;
+    }
+    body {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .books li {
+        width: 40%;
+    }
 }
 
- }
-
-/*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px) { 
-
-.case-study-images li.show .img-hero-background span img {
-    transform: scale(1);
-    opacity: 0.2;
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .my-photo {
+      display: none;
+    }
+    .my-logo {
+        width: 150px;
+        margin-top: 5rem;
+    }
+    .my-details {
+        padding-top: 0rem;
+    }
+    .header {
+        border-bottom: 1px solid #ffffff;
+    }
+    .header .logo {
+        padding: 20px;
+    }
+    .header .logo img {
+        width: 120px;
+    }
+    .header .menu-icon {
+        position: absolute;
+        top: -60px;
+        right: 0px;
+    }
+    .intro {
+        padding-bottom: 1rem;
+    }
+    .intro h2 {
+        font-size: 26px;
+        line-height: 40px;
+    }
+    .intro a {
+        font-size: 20px;
+    }
+    .social-icons {
+        margin-top: 2rem;
+    }
+    .banner-section {
+        padding-top: 2rem;
+    }
+    .project-content {
+        padding: 40px;
+    }
+    .project-content h6 {
+        font-size: 18px;
+    }
+    .project-content h4 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .let-friends a h4 {
+        font-size: 20px;
+    }
+    .header li a {
+        padding: 5px 20px;
+    }
+    .header .menu-btn:checked ~ .menu {
+        max-height: 300px;
+        margin-bottom: 20px;
+    }
+    .header li.active a {
+        color: #ffffff;
+        background: #ffaf29;
+    }
+    .pad-bottom-10 {
+        padding-bottom: 5rem !important;
+    }
+    .works, .works img {
+        height: 400px;
+    }
+    .worked-projects {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .dribble-shots {
+        margin-bottom: 5rem;
+    }
+    .dribble-gallery a {
+        display: block;
+        width: 250px;
+    }
+    .width-custom-100 {
+        padding: 4rem 0px;
+    }
+    .heading1 {
+        font-size: 22px;
+        width: 100%;
+        line-height: 40px;
+    }
+    .sub-heading {
+        color: #fcad2a;
+        font-size: 18px;
+    }
+    .sub-heading1 {
+        font-size: 20px;
+    }
+    .margin-top50 {
+        margin-top: 30px;
+    }
+    .final-design ul li {
+        width: 44%;
+    }
+    .margin-top80 {
+        margin-top: 50px;
+    }
+    body {
+        font-size: 16px;
+    }
+    .books li {
+        width: 27%;
+    }
 }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .my-logo {
+        width: 150px;
+    }
+    .intro h2 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .pad-bottom-10 {
+        padding-bottom: 4rem;
+    }
+    .banner-section {
+        padding-top: 0rem;
+    }
+    .intro a {
+        font-size: 14px;
+    }
+    .intro a .arrow {
+        width: 20px;
+    }
+    .project-content {
+        padding: 30px;
+    }
+    .projects-view a img {
+        width: 100%;
+    }
+    .project-content h4 {
+        font-size: 16px;
+        line-height: 30px;
+        margin-top: 20px;
+    }
+    .project-content h6 {
+        font-size: 16px;
+    }  
+    .project-content p {
+        font-size: 14px;
+    }
+    .let-friends a h4 {
+        font-size: 18px;
+    }  
+    .header .logo img {
+        width: 120px;
+    }
+    .header .menu-icon {
+        position: absolute;
+        top: -60px;
+        right: 0px;
+    }
+    .header .logo {
+        padding: 20px;
+    }
+    .header .menu-btn:checked ~ .menu {
+        max-height: 300px;
+        margin-bottom: 20px;
+    }
+    .header li.active a {
+        color: #ffffff;
+        background: #ffaf29;
+    }
+    .header li a {
+        padding: 5px 20px;
+    }
+    .intro p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .works, .works img {
+        height: 300px;
+    }
+    .worked-projects {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .dribble-shots {
+        margin-bottom: 5rem;
+    }
+    .dribble-gallery a {
+        display: block;
+        width: 230px;
+    }
+    .width-custom-100 {
+        padding: 4rem 0px;
+    }
+    .heading1 {
+        font-size: 22px;
+        width: 100%;
+        line-height: 40px;
+    }
+    .sub-heading {
+        color: #fcad2a;
+        font-size: 18px;
+    }
+    .sub-heading1 {
+        font-size: 20px;
+    }
+    .margin-top50 {
+        margin-top: 30px;
+    }
+    .final-design ul li {
+        width: 29%;
+    }
+    .margin-top80 {
+        margin-top: 50px;
+    }
+    body {
+        font-size: 16px;
+    }
+    .intro {
+        padding-bottom: 1rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .my-logo {
+        width: 200px;
+    }
+    .intro h2 {
+        font-size: 26px;
+        line-height: 40px;
+    }
+    .intro a {
+        font-size: 18px;
+    }
+    .intro a .arrow {
+        width: 25px
+    }
+    .banner-section {
+        padding-top: 2rem;
+    }  
+    .project-content h4 {
+        font-size: 22px;
+        line-height: 35px;
+        margin-top: 30px;
+    }  
+    .project-content span {
+        font-size: 16px;
+    }
+    .project-content h6 {
+        font-size: 20px;
+    }
+    .let-friends a h4 {
+        font-size: 20px;
+    }
+    .let-friends a p {
+        font-size: 14px;
+    }
+    .let-friends a img {
+        width: 40px;
+    }
+    .dribble-gallery a {
+        width: 310px;
+    }
+    .heading1 {
+        font-size: 32px;
+        line-height: 50px;
+    }
+    .sub-heading1 {
+        font-size: 25px;
+    }
+    .final-design ul li {
+        width: 290px;
+    }
  }
 
-/*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) { ... }
-
-/*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) { ... }
-
-/*Extra large devices (large desktops, 1200px and up)*/
+/* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { ... }
