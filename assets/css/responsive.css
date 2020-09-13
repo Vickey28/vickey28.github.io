@@ -104,6 +104,9 @@
     .books li {
         width: 40%;
     }
+    .header li a::after {
+        margin: unset;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -219,6 +222,9 @@
     .books li {
         width: 27%;
     }
+    .header li a::after {
+        margin: unset;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -332,6 +338,9 @@
     .intro {
         padding-bottom: 1rem;
     }
+    .header li a::after {
+        margin: unset;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -388,4 +397,4 @@
  }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) {}
