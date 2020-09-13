@@ -405,9 +405,6 @@ a:hover {
 .project-content {
   padding: 50px;
 }
-.project-content a {
-  display: block;
-}
 
 .project-content h6 {
   font-size: 18px;
@@ -434,6 +431,7 @@ a:hover {
 }
 .project-content a {
   color: #222222;
+  display: block;
 }
 .let-friends {
   width: 100%;
